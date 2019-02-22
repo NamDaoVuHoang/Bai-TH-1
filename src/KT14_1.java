@@ -3,21 +3,19 @@ public class KT14_1
     private static void insertionSort(int[] a_list)
     {
         int len = a_list.length ;
-        for (int i = 0 ; i < len-1 ; i++)
-        {
-            int max_position = i;
-            int position = i+1 ;
 
-            while (position < len )
+        for (int index = 1 ; index < len ; index++)
+        {
+            int current_value = a_list[index] ;
+            int position = index ;
+
+            while (position > 0 && a_list[position - 1] > current_value)
             {
-                if (a_list[position] > a_list[max_position])
-                max_position = position ;
-                position ++ ;
+                a_list[position] = a_list[position - 1] ;
+                position = position - 1 ;
             }
 
-            int temp = a_list[i];
-            a_list[i] = a_list[max_position] ;
-            a_list[max_position] = temp ;
+            a_list[position] = current_value ;
         }
 
     }
