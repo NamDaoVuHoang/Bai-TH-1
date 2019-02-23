@@ -1,10 +1,13 @@
 def selectionSort(a_list):
    for fill_slot in range(len(a_list)-1, 0, -1):
        positionOfMax=0
+
+       # tìm phần tử lớn nhất tính từ vị trí 1 đến fill_slot
        for location in range(1, fill_slot+1):
            if a_list[location] > a_list[positionOfMax]:
                positionOfMax = location
 
+       # đổi chỗ phần tử ở fill_slot và positionOfMax
        temp = a_list[fill_slot]
        a_list[fill_slot] = a_list[positionOfMax]
        a_list[positionOfMax] = temp

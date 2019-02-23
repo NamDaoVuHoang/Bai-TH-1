@@ -10,6 +10,7 @@ def quickSortHelper(a_list, first, last):
 
 
 def partition(a_list, first, last):
+    # chọn phần tử chốt, chặn trái và chặn phải
     pivot_value = a_list[first]
     left_mark = first + 1
     right_mark = last
@@ -17,15 +18,18 @@ def partition(a_list, first, last):
     done = False
     while not done:
 
+        # phần tử ở chặn trái nhỏ hơn chốt thì dịch chặn trái sang phải
         while left_mark <= right_mark and a_list[left_mark] <= pivot_value:
             left_mark = left_mark + 1
 
+        # phần tử ở chặn phải lớn hơn chốt thì dịch chặn phải sang trái
         while a_list[right_mark] >= pivot_value and right_mark >= left_mark:
             right_mark = right_mark - 1
 
         if right_mark < left_mark:
             done = True
         else:
+            # tráo đổi giá trị của biến trái phải
             temp = a_list[left_mark]
             a_list[left_mark] = a_list[right_mark]
             a_list[right_mark] = temp
@@ -37,6 +41,7 @@ def partition(a_list, first, last):
     return right_mark
 
 
-a_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-quickSort(a_list)
-print(a_list)
+if __name__ == '__main__':
+    a_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+    quickSort(a_list)
+    print(a_list)

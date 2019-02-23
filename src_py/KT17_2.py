@@ -9,6 +9,7 @@ def merge(lst,l,mid,r):
 
     i = 0
     j = 0
+
     done = False
     while not done :
         if lst1[i] < lst2[j] :
@@ -24,8 +25,6 @@ def merge(lst,l,mid,r):
     result.extend(lst1[i:])
     result.extend(lst2[j:])
     lst[l:r] = result
-    # print(lst1,lst2,result)
-
 
 
 def mergeSort(lst,l,r) :
@@ -34,9 +33,11 @@ def mergeSort(lst,l,r) :
 
         """ do trong python không hỗ trợ tham chiếu đến 1 đoạn trong list
         nên không được gán như trong ví dụ merge_sort.py """
+        # chia dãy
         mergeSort(lst,l,mid)
         mergeSort(lst,mid,r)
 
+        # trộn 2 dãy
         merge(lst,l,mid,r)
 
 if __name__ == '__main__':
