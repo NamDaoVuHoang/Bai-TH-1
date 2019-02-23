@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62854d04-6326-41ad-a1c7-94e38a62822c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KT14_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT14_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KT15_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KT15_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KT15_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Bai TH 1/KT14_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bai TH 1/KT14_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KT14_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT14_1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/KT14_3.java">
+        <entry file="file://$PROJECT_DIR$/src/KT15_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="161">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -37,12 +36,15 @@
         <option value="$PROJECT_DIR$/src/KT14_1.java" />
         <option value="$PROJECT_DIR$/src/KT14_2.java" />
         <option value="$PROJECT_DIR$/src/KT14_3.java" />
+        <option value="$PROJECT_DIR$/src/KT15_1.java" />
+        <option value="$PROJECT_DIR$/src/KT15_2.java" />
+        <option value="$PROJECT_DIR$/src/KT15_3.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="980" />
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,7 +53,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,22 +65,18 @@
               <item name="Bai TH 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Bai TH 1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bai TH 1" type="462c0819:PsiDirectoryNode" />
-              <item name="src_py" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550848021395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550895955344" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -95,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KT14_2">
+  <component name="RunManager" selected="Application.KT15_3">
     <configuration name="KT14_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KT14_1" />
       <module name="Bai TH 1" />
@@ -110,8 +107,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KT15_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KT15_1" />
+      <module name="Bai TH 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KT15_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KT15_2" />
+      <module name="Bai TH 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KT15_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KT15_3" />
+      <module name="Bai TH 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KT15_3" />
+        <item itemvalue="Application.KT15_2" />
+        <item itemvalue="Application.KT15_1" />
         <item itemvalue="Application.KT14_2" />
         <item itemvalue="Application.KT14_1" />
       </list>
@@ -129,18 +150,19 @@
       <updated>1550672328569</updated>
       <workItem from="1550672331536" duration="780000" />
       <workItem from="1550673149289" duration="1839000" />
-      <workItem from="1550844450204" duration="2511000" />
+      <workItem from="1550844450204" duration="3117000" />
+      <workItem from="1550889663562" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5130000" />
+    <option name="totallyTimeSpent" value="7535000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="653" height="696" extended-state="0" />
+    <frame x="-8" y="0" width="654" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46566164" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46488294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -149,7 +171,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36363637" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36363637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -193,6 +215,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KT15_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="30" column="1" lean-forward="true" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KT15_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KT15_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
